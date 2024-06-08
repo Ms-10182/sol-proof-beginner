@@ -1,4 +1,4 @@
-1) In CLI ru ```npm i```
+1) In CLI run ```npm i```
 2) run ```solana-test-validator``` in CLI
 3) Open index.html
 4) click ```Create a new Solana account``` on webpage.
