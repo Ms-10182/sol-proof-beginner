@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sol proof</title>
+    <script src="https://unpkg.com/@solana/web3.js@1.31.0/lib/index.iife.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Generate keypair</h1>
+        <button id="createKeyPair" onclick="createKeyPair()">Create a new Solana account</button>
+    </div>
+    <div>
+        <h1>Connect to phantom wallet</h1>
+        <button id="connectWallet" onclick="connectWallet()">Connect wallet</button>
+    </div>
+    <div>
+        <h1>send 1 sol to phantom wallet</h1>
+        <button id="sendSol" onclick="sendSol()">Send 1 SOL</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
